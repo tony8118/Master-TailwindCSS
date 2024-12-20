@@ -3,8 +3,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Loops Studio</title>
+    <title>Branding Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body class="container mx-auto">
+    <nav>
+      <ul class="flex mt-4">
+        <li>
+          <a
+            href=""
+            class="ml-10 hover:pb-2 hover:text-[#1bc8d3] hover:border-b-2 hover:border-[#1bc8d3]"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href=""
+            class="ml-10 hover:pb-2 hover:text-[#1bc8d3] hover:border-b-2 hover:border-[#1bc8d3]"
+            >Skills</a
+          >
+        </li>
+        <li>
+          <a
+            href=""
+            class="ml-10 hover:pb-2 hover:text-[#1bc8d3] hover:border-b-2 hover:border-[#1bc8d3]"
+            >Services</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header
+      class="hero flex md:flex-row sm:flex-col justify-between items-center mt-28"
+    >
+      <div>
+        <img src="images/hero.jpg" alt="" class="" />
+      </div>
+      <div class="mr-10 ml-10 md:mt-0 sm:mt-[6rem]">
+        <h1 class="text-5xl font-bold mb-10">
+          Web<span class="text-blue-400">Agency</span>
+        </h1>
+        <p class="w-96 mb-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+          blanditiis optio voluptates ad expedita quisquam adipisci, excepturi
+          minus error laborum rem. Earum voluptate non ab.
+        </p>
+        <button
+          class="bg-blue-400 text-white pt-2 pb-2 pl-10 pr-10 my-5 hover:bg-blue-500"
+        >
+          Service
+        </button>
+        <button
+          class="bg-white text-black border-b-2 border-black font-bold pt-2 pb-2 pl-10 pr-10 ml-5 hover:bg-gray-100"
+        >
+          Learn more
+        </button>
+        <div class="flex md:flex-row sm:flex-col justify-around">
+          <div
+            class="flex flex-col justify-center items-center p-2 mr-5 mt-5 bg-blue-300"
+          >
+            <h1 class="mt-5">
+              <span class="font-bold">5 Star </span>Experience
+            </h1>
+            <p class="w-60 font-light p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, voluptas?
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-2 mr-5 mt-5 bg-lime-300"
+          >
+            <h1 class="mt-5"><span class="font-bold">Make </span>Your offer</h1>
+            <p class="w-60 font-light p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, voluptas?
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="mt-[10rem] ml-[5rem] flex justify-between items-center md:flex-row sm:flex-col md:text-left sm:text-center"
+    >
+      <div>
+        <h1 class="text-5xl font-bold mb-10">
+          Our<span class="text-blue-400">Skills</span>
+        </h1>
+        <p class="w-96 mb-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          facilis placeat architecto illum ipsam optio iure nobis laudantium aut
+          dolore.
+        </p>
+        <button class="bg-blue-400 text-white pt-2 pb-2 pl-5 pr-5">
+          Learn More
+        </button>
+      </div>
+      <div class="image">
+        <img
+          src="images/section-two.jpg"
+          alt=""
+          class="w-[500px] rounded-xl shadow-md"
+        />
+      </div>
+    </section>
+
+    <section class="mt-40">
+      <h1 class="ml-10 mb-10 text-4xl font-bold">Services</h1>
+      <div
+        class="md:h-[40rem] sm:h-auto md:w-60 sm:w-auto items-center bg-black flex md:flex-nowrap sm:flex-wrap"
+      >
+        <div class="one">
+          <div
+            class="relative w-[300px] ml-10 mb-10 bg-blue-400 left-20 top-10 p-5"
+          >
+            <h1 class="font-bold mb-5">
+              Web<br />
+              Development
+            </h1>
+            <p class="font-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              commodi voluptatum neque error architecto doloremque fugiat harum,
+              illo
+            </p>
+          </div>
+          <div
+            class="relative w-[300px] ml-10 mb-10 bg-lime-400 left-20 top-10 p-5"
+          >
+            <h1 class="font-bold mb-5">
+              Strategic<br />
+              Planner
+            </h1>
+            <p class="font-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              commodi voluptatum neque error architecto doloremque fugiat harum,
+              illo
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
